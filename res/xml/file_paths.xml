@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+<paths xmlns:android="http://schemas.android.com/apk/res/android">
+    <files-path name="my_images" path="images/"/>
+    <files-path name="my_docs" path="docs/"/>
+    <cache-path name="my_plugins" path="" />
+    <files-path name="my_rootA" path="."/>
+    <external-files-path name="my_rootB" path="." />
+    <external-files-path name="my_downloadsA" path="Download/" />
+    <external-path name="my_downloadsB" path="Download/" />
+    <files-path name="my_downloadsC" path="Download/" />
+</paths>
+
+</PreferenceScreen>

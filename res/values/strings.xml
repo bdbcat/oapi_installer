@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">OpenCPN BLAHBLAH Plugin Installer</string>
+    
+    
+    <string name="incompatible_dialog2">We\'re sorry.\n\n
+        Thi Plugin requires OpenCPN for Android Version 1.0.18 or above.\n\n
+        </string>
+
+    <string name="install_plugin_string">Install Plugin</string>
+    <string name="installing_string">Installing...</string>
+    <string name="prepare_string">Preparing....</string>
+    <string name="ready_string">Ready</string>
+    <string name="wait_confirm">Awaiting confirmation...</string>
+    <string name="install_confirmed">Installation confirmed.</string>
+    <string name="permission_granted">SDCard permission granted.</string>
+    <string name="restart_oa">Restarting OpenCPN now...</string>
+</resources>

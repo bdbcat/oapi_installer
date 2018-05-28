@@ -1,0 +1,11 @@
+<resources>
+
+    <style name="AppTheme" parent="@android:style/Theme.Holo">
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="AlertTheme1" parent="@android:style/Theme.Holo">
+        <!-- Customize your theme here. -->
+     </style>
+
+</resources>
