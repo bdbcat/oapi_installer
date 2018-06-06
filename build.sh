@@ -75,7 +75,7 @@ mv "$CD/bin/resources.ap_" "$CD/bin/$APP_NAME.ap_"
 $ANDROID_AAPT_ADD "$CD/bin/$APP_NAME.ap_" "$CD/bin/classes.dex"
 
 # Create signed Android application from *.ap_ file. Output and Input files must be different.
-"$JAVABIN/jarsigner" -keystore "$CD/$KEYSTORE" -storepass "password" -keypass "password" -signedjar "$CD/bin/$APP_NAME.apk" "$CD/bin/$APP_NAME.ap_" "alias_name"
+"$JAVABIN/jarsigner" -keystore "$CD/$KEYSTORE" -storepass "password" -keypass "password" -signedjar "$CD/bin/$APP_NAME.apk" "$CD/bin/$APP_NAME.ap_" "alias_name" -sigalg MD5withRSA -digestalg SHA1
 
 # Delete temp file
 rm "bin/$APP_NAME.ap_"
